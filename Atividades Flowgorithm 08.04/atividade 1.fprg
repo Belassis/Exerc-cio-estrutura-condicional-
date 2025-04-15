@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="atividade 1"/>
+        <attribute name="authors" value="DES-I1HSB"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-08 01:16:20 "/>
+        <attribute name="created" value="REVTLUkxSFNCO0VTTjUxMk4xMjYyODE4OzIwMjUtMDQtMDg7IjAxOjA4OjAyICI7MjYxOQ=="/>
+        <attribute name="edited" value="REVTLUkxSFNCO0VTTjUxMk4xMjYyODE4OzIwMjUtMDQtMDg7IjAxOjE2OjIwICI7MTsyNzI2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero" type="Real" array="False" size=""/>
+            <output expression="&quot;Insira um n&#250;mero! &#55357;&#56842;&quot;" newline="True"/>
+            <input variable="numero"/>
+            <if expression="numero &gt; 0">
+                <then>
+                    <output expression="&quot;Esse n&#250;mero &#233; maior que 0!&#55357;&#56841;&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Esse n&#250;mero &#233; menor que 0!&#55357;&#56841;&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
